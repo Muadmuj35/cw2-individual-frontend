@@ -1,0 +1,74 @@
+
+body {
+	background-color: #5a5c5e; 
+  }
+ 
+  .logo {
+	color: #FFD700; 
+	font-weight: bold;
+  }
+  
+
+  a {
+	color: #FFD700; 
+  }
+  
+  a:hover {
+	color: #333333; 
+	text-decoration: none;
+  }
+  
+  #star {
+	color: #FFD700; 
+  }
+  
+  /* Custom control input */
+  .custom-control-input:checked ~ .custom-control-label::before {
+	background-color: #FFD700; 
+	border-color: #FFD700; 
+  }
+  
+  /* Primary button */
+  .btn-primary {
+	background-color: #FFD700; 
+	border-color: #FFD700; 
+	color: #0070F3; 
+  }
+  
+  .btn-primary:hover {
+	background-color: #333333; 
+	border-color: #333333; 
+	color: #FFD700; 
+	outline: none;
+  }
+  
+  .btn-primary:disabled {
+	background-color: #333333; 
+	border-color: #333333; 
+	color: #777777; 
+  }
+  
+  .btn-primary:focus,
+  .btn-primary:active {
+	background-color: #FFD700; 
+	border-color: #FFD700; 
+	color: #0070F3; 
+	outline: none;
+  }
+  
+
+  .cart-btn {
+	float: right;
+	margin-right: 35px;
+  }
+  
+  
+  .jumbotron {
+	background-color: #2b2b2b; 
+	margin-bottom: 0;
+  }
+  
+  .breadcrumb {
+	padding-left: 12.6rem;
+  }
+  
